@@ -1,5 +1,5 @@
 {
-    "name": "niekv/command-app",
+    "name": "onebigownage/command-app",
     "require": {
         "symfony/console": "^4.1"
     },
