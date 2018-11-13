@@ -1,0 +1,20 @@
+{
+    "name": "niekv/command-app",
+    "require": {
+        "symfony/console": "^4.1"
+    },
+    "authors": [
+        {
+            "name": "OneBigOwnage",
+            "email": "niekvandenbos@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "bin": [
+        "command-app"
+    ]
+}

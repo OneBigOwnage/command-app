@@ -1,0 +1,18 @@
+#! /usr/bin/env php
+<?php
+
+use App\SayHelloCommand;
+use Symfony\Component\Console\Application;
+
+require 'vendor/autoload.php';
+
+$app = new Application('Hello world demo', '1.0');
+
+$app->add(new SayHelloCommand());
+
+$app->run();
+
+// laravel new app
+// Add entry to hosts file
+// Add entry to httpd-vhost.conf file
+// restart apache service.
